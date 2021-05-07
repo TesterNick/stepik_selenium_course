@@ -10,3 +10,12 @@ class LoginPageLocators:
 class MainPageLocators:
 
     LOGIN_LINK = (By.ID, "login_link")
+
+
+class ProductPageLocators:
+
+    ADD_TO_BASKET_BUTTON = (By.CLASS_NAME, "btn-add-to-basket")
+    ADDED_BOOK_TITLE = (By.CSS_SELECTOR, ".alert-success strong")
+    BOOK_TITLE = (By.CSS_SELECTOR, ".product_main h1")
+    BOOK_PRICE = (By.CSS_SELECTOR, ".product_main p.price_color")
+    BASKET_TOTAL = (By.CSS_SELECTOR, ".alert-info strong")
